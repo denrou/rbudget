@@ -1,9 +1,9 @@
-Package: rbudget
-Title: rbudget
-Description: More about what it does (maybe more than one line)
+Package: budgetr
+Title: budgetr
+Description: A set of tools to manage your personnal budget within R
 Type: Package
-Version: 0.1
-Date: 2016-07-27
+Version: 0.1001
+Date: 2016-07-31
 Author: Denis Roussel <deroussel@gmail.com>
 License: GPL
 RoxygenNote: 5.0.1
