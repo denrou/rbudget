@@ -1,0 +1,9 @@
+Package: rbudget
+Title: rbudget
+Description: More about what it does (maybe more than one line)
+Type: Package
+Version: 0.1
+Date: 2016-07-27
+Author: Denis Roussel <deroussel@gmail.com>
+License: GPL
+RoxygenNote: 5.0.1
