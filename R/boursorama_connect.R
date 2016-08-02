@@ -25,6 +25,7 @@ connect_boursorama <- function(account_number = NULL, password = NULL) {
   
   checkForServer()
   startServer(log = FALSE, invisible = FALSE)
+  Sys.sleep(1)
   remDr <- remoteDriver()
   remDr$open()
   remDr$navigate("https://clients.boursorama.com/connexion/")
@@ -93,4 +94,6 @@ connect_boursorama <- function(account_number = NULL, password = NULL) {
   # Finally, we submit the page
   webElem <- remDr$findElements("css selector", ".button.button--lg")[[1]]
   webElem$clickElement()
+  
+  return(remDr$getPageSource()[[1]])
 }
